@@ -54,3 +54,4 @@ public class AppDbContext : IdentityDbContext<ApplicationUser>
 //var db = sp.GetRequiredService<AppDbContext>();
 //    var users = sp.GetRequiredService<UserManager<ApplicationUser>>();
 //    var roles = sp.GetRequiredService<RoleManager<IdentityRole>>();
+// add code here 
