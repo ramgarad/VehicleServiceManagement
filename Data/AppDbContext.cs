@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection.Emit;
 using VehicleService.Entities;
@@ -46,3 +47,7 @@ public class AppDbContext : IdentityDbContext<ApplicationUser>
 }
 // "Service Representatives" master data. Creating an advisor also creates a login
 // (email as username, default password Advisor@123) with the ServiceAdvisor role.
+
+//var db = sp.GetRequiredService<AppDbContext>();
+//    var users = sp.GetRequiredService<UserManager<ApplicationUser>>();
+//    var roles = sp.GetRequiredService<RoleManager<IdentityRole>>();

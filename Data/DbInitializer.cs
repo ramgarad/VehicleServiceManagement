@@ -107,3 +107,5 @@ public static class DbInitializer
             """);
     }
 }
+// "Service Representatives" master data. Creating an advisor also creates a login
+// (email as username, default password Advisor@123) with the ServiceAdvisor role.
