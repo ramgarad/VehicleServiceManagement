@@ -14,6 +14,8 @@ namespace VehicleService.Entities
         [StringLength(250)] 
         public string? Address { get; set; }
 
+        // ram you can add new code here
+
         //public string Gender { get; set; }
 
     }
