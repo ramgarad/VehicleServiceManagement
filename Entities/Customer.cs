@@ -14,5 +14,7 @@ namespace VehicleService.Entities
         [StringLength(250)] 
         public string? Address { get; set; }
 
+        //public string Gender { get; set; }
+
     }
 }
